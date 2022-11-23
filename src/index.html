@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hot News</title>
+  </head>
+  <body>
+    <div id="hero-caption">
+      <h1 id="heading">Berita Terbaru Kapanpun Dimanasaja</h1>
+      <div id="category-list">
+        <div class="category-item">
+          <div class="card">
+            <img class="icon" src="./image/graphic.svg" alt="Bisnis" />
+            <span>Bisnis</span>
+          </div>
+        </div>
+        <div class="category-item">
+          <div class="card">
+            <img class="icon" src="./image/heart.svg" alt="Kesehatan" />
+            <span>Kesehatan</span>
+          </div>
+        </div>
+        <div class="category-item">
+          <div class="card">
+            <img class="icon" src="./image/videocamera.svg" alt="Entertanmen" />
+            <span>Entertanmen</span>
+          </div>
+        </div>
+        <div class="category-item">
+          <div class="card">
+            <img class="icon" src="./image/soccer.svg" alt="Olahraga" />
+            <span>Olahraga</span>
+          </div>
+        </div>
+        <div class="category-item">
+          <div class="card">
+            <img class="icon" src="./image/science.svg" alt="Pengetahuan" />
+            <span>Pengetahuan</span>
+          </div>
+        </div>
+        <div class="category-item">
+          <div class="card">
+            <img class="icon" src="./image/chip.svg" alt="Teknologi" />
+            <span>Teknologi</span>
+          </div>
+        </div>
+        <div class="category-item">
+          <div class="card">
+            <img class="icon" src="./image/news.svg" alt="Umum" />
+            <span>Umum</span>
+          </div>
+        </div>
+      </div>
+      <p id="subheading">Akses Semua Berita Terkiri Setiap Hari</p>
+    </div>
+
+    <main>
+      <aside>
+        <div class="card">
+          <h2 class="section-heading">Kategori</h2>
+          <div id="filter-list">
+            <div class="filter-item active" data-value="business">Bisnis</div>
+            <div class="filter-item" data-value="entertainment">Entertainment</div>
+            <div class="filter-item" data-value="health">Kesehatan</div>
+            <div class="filter-item" data-value="sports">Olahraga</div>
+            <div class="filter-item" data-value="science">Pengetahuan</div>
+            <div class="filter-item" data-value="technology">Teknologi</div>
+            <div class="filter-item" data-value="general">Umum</div>
+          </div>
+        </div>
+      </aside>
+      <div id="content">
+        <article>
+          <search-bar></search-bar>
+          <news-list></news-list>
+        </article>
+      </div>
+    </main>
+    <footer>
+      <a> Muhammad Afiq &copy; 2022 </a>
+      <span>
+        <a href="https://www.dicoding.com/academies/163" target="_blank">Dicoding</a>
+        | Powered by
+        <a href="https://newsapi.org/" target="_blank">NewsApi.org</a>
+      </span>
+    </footer>
+  </body>
+</html>
